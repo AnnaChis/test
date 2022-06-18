@@ -17,7 +17,7 @@ def temp_to_celcius(temp):
 
 
 taxi['temp_C'] = temp_to_celcius(taxi['temp'])
-print(taxi)
+print(taxi.head)
 
 #pickups_by_mon_bor = taxi.groupby(['borough', 'pickup_month'], as_index = False).agg({'pickups': 'sum'}).sort_values('pickups', ascending= False)
 
